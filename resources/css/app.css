@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Jost", sans-serif;
+}
+
+@layer components {
+    .btn-primary-purple {
+        background-color: theme('colors.primary-purple');
+        border-radius: theme('borderRadius.lg');
+        padding: 12px 30px;
+        color: theme('colors.white');
+        font-weight: bold;
+        font-size: 14px;
+        transition: background-color .1s;
+
+        &:hover {
+            background-color: #C75AF6;
+        }
+    }
+
+    .btn-warning {
+        background-color: theme('colors.warning-red');
+        border-radius: theme('borderRadius.lg');
+        padding: 12px 30px;
+        color: theme('colors.white');
+        font-weight: bold;
+        font-size: 14px;
+        transition: background-color .1s;
+
+        &:hover {
+            background-color: #E98888;
+        }
+    }
+
+    .btn-slate {
+        background-color: theme('colors.gunmetal');
+        border-radius: theme('borderRadius.lg');
+        padding: 12px 30px;
+        color: theme('colors.white');
+        font-weight: bold;
+        font-size: 14px;
+        transition: background-color .1s;
+
+        &:hover {
+            background-color: #656EA3;
+        }
+    }
+
+    .btn-blue {
+        background-color: theme('colors.royal-blue');
+        border-radius: theme('borderRadius.lg');
+        padding: 12px 30px;
+        color: theme('colors.white');
+        font-weight: bold;
+        font-size: 14px;
+        transition: background-color .1s;
+
+        &:hover {
+            background-color: #7C91F9;
+        }
+    }
+
+    .heading-1 {
+        font-weight: bold;
+        font-size: theme('fontSize.xl');
+        letter-spacing: theme('letterSpacing.tight');
+        color: theme('colors.gunmetal');
+        line-height: theme('lineHeight.9');
+    }
+
+    .heading-2 {
+        font-weight: bold;
+        font-size: theme('fontSize.lg');
+        letter-spacing: theme('letterSpacing.tight');
+        color: theme('colors.gunmetal');
+        line-height: theme('lineHeight.7');
+    }
+
+    .heading-3 {
+        font-weight: bold;
+        font-size: theme('fontSize.lg');
+        letter-spacing: theme('letterSpacing.tighter');
+        color: theme('colors.gunmetal');
+        line-height: theme('lineHeight.6');
+    }
+
+    .heading-4 {
+        font-weight: bold;
+        font-size: theme('fontSize.sm');
+        letter-spacing: -0.2px;
+        color: theme('colors.gunmetal');
+        line-height: theme('lineHeight.5');
+    }
+
+    .paragraph-1 {
+        font-size: 16px;
+        color: theme('colors.gunmetal');
+        line-height: theme('lineHeight.6');
+    }
+
+    .paragraph-2 {
+        font-size: 15px;
+        color: theme('colors.gunmetal');
+        line-height: 22px;
+    }
+
+    .paragraph-3 {
+        font-size: 13px;
+        font-weight: theme('fontWeight.semibold');
+        color: theme('colors.gunmetal');
+        line-height: 19px;
+    }
+}
