@@ -23,11 +23,6 @@ class Navigation extends Component
         $this->colors = config('constants.colors');
     }
 
-    public function highlight(string $category, string $tag): string
-    {
-        return $category === $tag ? "bg-royal-blue text-white" : "bg-ghost text-royal-blue";
-    }
-
     public function getStatusNumber($status)
     {
         return $this->feedbacks->where('status', $status)->count();

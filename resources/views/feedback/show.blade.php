@@ -4,7 +4,7 @@
 @section('title', 'Laravel - Feedback')
 
 @section('content')
-    <div class="w-1/2 mx-auto space-y-6">
+    <div class="md:w-1/2 px-5 mx-auto space-y-6">
         <div class="flex justify-between">
             <x-go-back></x-go-back>
             <a href="{{route('feedback.edit', $feedback->id)}}" class="btn-blue">

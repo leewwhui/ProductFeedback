@@ -19,7 +19,7 @@
 </head>
 <body class="antialiased bg-alice-blue">
 
-<main class="py-[94px] mx-auto min-h-screen">
+<main class="md:py-24 py-10 mx-auto min-h-screen">
     @yield('content')
 </main>
 

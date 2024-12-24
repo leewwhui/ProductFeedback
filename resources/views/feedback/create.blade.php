@@ -4,7 +4,7 @@
 @section('title', 'Laravel - Feedback')
 
 @section('content')
-    <div class="w-1/3 mx-auto space-y-16">
+    <div class="md:w-1/3 px-28 mx-auto space-y-16">
         <x-go-back></x-go-back>
 
         <div class="w-full bg-white rounded-lg px-10 py-12 relative space-y-10">

@@ -4,7 +4,7 @@
 @section('title', 'Laravel - suggestions')
 
 @section('content')
-    <div class="w-4/5 mx-auto flex gap-8 justify-between">
+    <div class="md:w-4/5 px-10 mx-auto flex md:flex-row flex-col gap-8 justify-between">
 
         <x-navigation :feedbacks="$feedbacks" />
 
